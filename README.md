@@ -1,12 +1,11 @@
-# React + Vite
+NB: I did not work on the repository from the start, and that is my mistake, now I only have one commit. Apologies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Navbar Section
+I created a totally different Navbar from the original design, and it has navlinks, and when the user is in a certain page, the nav item will do an animation just to show that you are in that page. It accommodates different screen sizes.
 
-Currently, two official plugins are available:
+# Carousel Section
+I avoided using cards as the original design, so I decided to do a carousal, that yhe user will have to navigate to show each and every detail of an item. I created a button that will take you to see the details of the selected page. It also accommodates different screen sizes. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Modal Section
+The button from the carousel takes you to the modal where more information is provided of the selected item. Now it is up to the user if they feel like that is what they want, and they will select it. Also it accommodates different screen sizes.
+When the select button is clicked in the modal, popup shows to let the user know that they have selected the item, and they cannot select it again.
